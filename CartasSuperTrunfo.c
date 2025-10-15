@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Desafio Xadrez!\n");
+    printf("Desafio Trunfo! \n");
 
   char estado1;
   char codigo1[4];
