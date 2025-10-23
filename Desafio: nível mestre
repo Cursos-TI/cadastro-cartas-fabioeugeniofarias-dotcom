@@ -3,7 +3,7 @@
 typedef unsigned long int ulint;
 
 typedef struct {
-char estado;
+    char estado;
     char codigo[8];
     char nomeCidade[100];
     ulint populacao;        
@@ -37,7 +37,6 @@ void cadastrarCarta(Carta *c) {
     printf("Informe o número de pontos turísticos: ");
     scanf("%d", &c->pontosTuristicos);
 
-   // Cálculos
    if (c->area > 0.0f && c->populacao > 0) {
         c->densidade = (float)c->populacao / c->area;
         c->pibPerCapita = (c->pib * 1e9f) / (float)c->populacao;
