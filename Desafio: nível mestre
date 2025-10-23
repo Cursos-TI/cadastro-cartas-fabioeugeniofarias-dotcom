@@ -6,13 +6,13 @@ typedef struct {
 char estado;
     char codigo[8];
     char nomeCidade[100];
-    ulint populacao;        // agora unsigned long int
-    float area;             // km²
-    float pib;              // em bilhões de reais
+    ulint populacao;        
+    float area;             
+    float pib;              
     int pontosTuristicos;
-    float densidade;        // hab/km²
-    float pibPerCapita;     // em reais
-    float superPoder;       // soma dos atributos (float)
+    float densidade;        
+    float pibPerCapita;     
+    float superPoder;       
 } Carta;
 
 void cadastrarCarta(Carta *c) {
